@@ -1,0 +1,492 @@
+.border-aliceblue{
+    border-color: AliceBlue;
+}
+.border-antiquewhite{
+    border-color: AntiqueWhite;
+}
+.border-aqua{
+    border-color: Aqua;
+}
+.border-aquamarine{
+    border-color: Aquamarine;
+}
+.border-azure{
+    border-color: Azure;
+}
+.border-beige{
+    border-color: Beige;
+}
+.border-bisque{
+    border-color: Bisque;
+}
+.border-black{
+    border-color: black;
+}
+.border-dark{
+    border-color: black;
+}
+.border-blanchedalmond{
+    border-color: BlanchedAlmond;
+}
+.border-blue{
+    border-color: blue;
+}
+.border-blueviolet{
+    border-color: blueviolet;
+}
+.border-brown{
+    border-color: brown;
+}
+.border-burlywood{
+    border-color: burlywood;
+}
+.border-cadetblue{
+    border-color: cadetblue;
+}
+.border-chartreuse{
+    border-color: chartreuse;
+}
+.border-chocolate{
+    border-color: chocolate;
+}
+.border-coral{
+    border-color: coral;
+}
+.border-cornflowerblue{
+    border-color: cornflowerblue;
+}
+.border-cornsilk{
+    border-color: cornsilk;
+}
+.border-crimson{
+    border-color: crimson;
+}
+.border-cyan{
+    border-color: cyan;
+}
+.border-darkblue{
+    border-color: darkblue;
+}
+.border-darkcyan{
+    border-color: darkcyan;
+}
+.border-darkgoldenrod{
+    border-color: darkgoldenrod;
+}
+.border-darkgray{
+    border-color: darkgray;
+}
+.border-darkgrey{
+    border-color: darkgrey;
+}
+.border-darkgreen{
+    border-color: darkgreen;
+}
+.border-darkkhaki{
+    border-color: darkkhaki;
+}
+.border-darkmagenta{
+    border-color: darkmagenta;
+}
+.border-darkolivegreen{
+    border-color: darkolivegreen;
+}
+.border-darkorange{
+    border-color: darkorange;
+}
+.border-darkorchid{
+    border-color: darkorchid;
+}
+.border-darkred{
+    border-color: darkred;
+}
+.border-darksalmon{
+    border-color: darksalmon;
+}
+.border-darkseagreen{
+    border-color: darkseagreen;
+}
+.border-darkslateblue{
+    border-color: darkslateblue;
+}
+.border-darkslategray{
+    border-color: darkslategray;
+}
+.border-darkslategrey{
+    border-color: darkslategrey;
+}
+.border-darkturquoise{
+    border-color: darkturquoise;
+}
+.border-darkviolet{
+    border-color: darkviolet;
+}
+.border-depppink{
+    border-color: deeppink;
+}
+.border-deepskyblue{
+    border-color: deepskyblue;
+}
+.border-dimgray{
+    border-color: dimgray;
+}
+.border-dimgrey{
+    border-color: dimgrey;
+}
+.border-dogerblue{
+    border-color: dodgerblue;
+}
+.border-firebrick{
+    border-color: firebrick;
+}
+.border-floralwhite{
+    border-color: floralwhite;
+}
+.border-forestgreen{
+    border-color: forestgreen;
+}
+.border-fuchsia{
+    border-color: fuchsia;
+}
+.border-gainsboro{
+    border-color: gainsboro;
+}
+.border-ghostwhite{
+    border-color: ghostwhite;
+}
+.border-gold{
+    border-color: gold;
+}
+.border-goldenrod{
+    border-color: goldenrod;
+}
+.border-gray{
+    border-color: gray;
+}
+.border-grey{
+    border-color: grey;
+}
+.border-green{
+    border-color: green;
+}
+.border-greenyellow{
+    border-color: greenyellow;
+}
+.border-honeydew{
+    border-color: honeydew;
+}
+.border-hotpink{
+    border-color: hotpink;
+}
+.border-indianred{
+    border-color: indianred;
+}
+.border-indigo{
+    border-color: indigo;
+}
+.border-ivory{
+    border-color: ivory;
+}
+.border-khaki{
+    border-color: khaki;
+}
+.border-lavender{
+    border-color: lavender;
+}
+.border-lavenderblush{
+    border-color: lavenderblush;
+}
+.border-lawngreen{
+    border-color: lawngreen;
+}
+.border-lemonchiifon{
+    border-color: lemonchiffon;
+}
+.border-lightblue{
+    border-color: lightblue;
+}
+.border-lightcoral{
+    border-color: lightcoral;
+}
+.border-lightcyan{
+    border-color: lightcyan;
+}
+.border-lightgoldenrodyellow{
+    border-color: lightgoldenrodyellow;
+}
+.border-lightgray{
+    border-color: lightgray;
+}
+.border-lightgrey{
+    border-color: lightgrey;
+}
+.border-lightgreen{
+    border-color: lightgreen;
+}
+.border-lightpink{
+    border-color: lightpink;
+}
+.border-lightsalmon{
+    border-color: lightsalmon;
+}
+.border-lightseagreen{
+    border-color: lightseagreen;
+}
+.border-lightskyblue{
+    border-color: lightskyblue;
+}
+.border-lightslategray{
+    border-color: lightslategray;
+}
+.border-lightslategrey{
+    border-color: lightslategrey;
+}
+.border-lightsteelblue{
+    border-color: lightsteelblue;
+}
+.border-lightyellow{
+    border-color: lightyellow;
+}
+.border-lime{
+    border-color: lime;
+}
+.border-limegreen{
+    border-color: limegreen;
+}
+.border-linen{
+    border-color: linen;
+}
+.border-magenta{
+    border-color: magenta;
+}
+.border-maroon{
+    border-color: maroon;
+}
+.border-mediumaquamarine{
+    border-color: mediumaquamarine;
+}
+.border-mediumblue{
+    border-color: mediumblue;
+}
+.border-mediumorchid{
+    border-color: mediumorchid;
+}
+.border-mediumpurple{
+    border-color: mediumpurple;
+}
+.border-mediumseagreen{
+    border-color: mediumseagreen;
+}
+.border-mediumslateblue{
+    border-color: mediumslateblue;
+}
+.border-mediumspringgreen{
+    border-color: mediumspringgreen;
+}
+.border-mediumturquoise{
+    border-color: mediumturquoise;
+}
+.border-mediumvioletred{
+    border-color: mediumvioletred;
+}
+.border-midnightblue{
+    border-color: midnightblue;
+}
+.border-mintcream{
+    border-color: mintcream;
+}
+.border-mistyrose{
+    border-color: mistyrose;
+}
+.border-moccasin{
+    border-color: moccasin;
+}
+.border-navajowhite{
+    border-color: navajowhite;
+}
+.border-navy{
+    border-color: navy;
+}
+.border-oldlace{
+    border-color: oldlace;
+}
+.border-olive{
+    border-color: olive;
+}
+.border-olivedrab{
+    border-color: olivedrab;
+}
+.border-orange{
+    border-color: orange;
+}
+.border-orangered{
+    border-color: orangered;
+}
+.border-orchid{
+    border-color: orchid;
+}
+.border-palegoldenrod{
+    border-color: palegoldenrod;
+}
+.border-palegreen{
+    border-color: palegreen;
+}
+.border-paleturquoise{
+    border-color: paleturquoise;
+}
+.border-palevioletred{
+    border-color: palevioletred;
+}
+.border-papayawhip{
+    border-color: papayawhip;
+}
+.border-peachpuff{
+    border-color: peachpuff;
+}
+.border-peru{
+    border-color: peru;
+}
+.border-pink{
+    border-color: pink;
+}
+.border-plum{
+    border-color: plum;
+}
+.border-powerblue{
+    border-color: powerblue;
+}
+.border-purple{
+    border-color: purple;
+}
+.border-rebeccapurple{
+    border-color: rebeccapurple;
+}
+.border-red{
+    border-color:red;
+}
+.border-rosybrown{
+    border-color:rosybrown;
+}
+.border-royalblue{
+    border-color:royalblue;
+}
+.border-saddlebrown{
+    border-color:saddlebrown;
+}
+.border-salmon{
+    border-color: salmon;
+}
+.border-sandybrown{
+    border-color: sandybrown;
+}
+.border-seagreen{
+    border-color: seagreen;
+}
+.border-seashell{
+    border-color: seashell;
+}
+.border-sienna{
+    border-color: sienna;
+}
+.border-silver{
+    border-color: silver;
+}
+.border-skyblue{
+    border-color: skyblue;
+}
+.border-slateblue{
+    border-color: slateblue;
+}
+.border-slategray{
+    border-color: slategray;
+}
+.border-slategrey{
+    border-color: slategrey;
+}
+.border-snow{
+    border-color: snow;
+}
+.border-springgreen{
+    border-color: springgreen;
+}
+.border-steelblue{
+    border-color: steelblue;
+}
+.border-tan{
+    border-color: tan;
+}
+.border-teal{
+    border-color: teal;
+}
+.border-thistle{
+    border-color: thistle;
+}
+.border-tomato{
+    border-color: tomato;
+}
+.border-turquoise{
+    border-color: turquoise;
+}
+.border-violet{
+    border-color: violet;
+}
+.border-wheat{
+    border-color: wheat;
+}
+.border-white{
+    border-color: white;
+}
+.border-whitesmoke{
+    border-color: whitesmoke;
+}
+.border-yellow{
+    border-color: yellow;
+}
+.border-yellowgreen{
+    border-color: yellowgreen;
+}
+.border-coffee{
+    border-color: #c0ffee;
+}
+.border-yoonsunghentai{
+    border-color: #587785;
+}
+.border-haengsinms{
+    border-color: #7d3147;
+}
+.border-dotted{
+    border-style: dotted;
+}
+.border-dashed{
+    border-style: dashed;
+}
+.border-solid{
+    border-style: solid;
+}
+.border-double{
+    border-style: double;
+}
+.border-groove{
+    border-style: groove;
+}
+.border-ridge{
+    border-style: ridge;
+}
+.border-inset{
+    border-style: inset;
+}
+.border-outset{
+    border-style: outset;
+}
+.border-quote{
+    border-left: solid;
+}
+.smallroundborder{
+    border-radius: 4px;
+}
+.mediumroundborder{
+    border-radius: 6px;
+}
+.bigroundborder{
+    border-radius: 8px;
+}

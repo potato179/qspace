@@ -1,0 +1,1444 @@
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.justify{
+    text-align: justify;
+}
+.overline{
+    text-decoration: overline;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.superbig{
+    font-size: 750%;
+}
+.big{
+    font-size: 500%;
+}
+.xx-large{
+    font-size: xx-large;
+}
+.x-large{
+    font-size: x-large;
+}
+.large{
+    font-size: large;
+}
+.medium{
+    font-size: medium;
+}
+.small{
+    font-size: small;
+}
+.x-small{
+    font-size: x-small
+}
+.xx-small{
+    font-size: xx-small;
+}
+.intro{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.idescription{
+    font-size: medium;
+}
+.larger{
+    font-size: larger;
+}
+.smaller{
+    font-size: smaller;
+}
+.lighter{
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+.aliceblue{
+    color: AliceBlue;
+}
+.antiquewhite{
+    color: AntiqueWhite;
+}
+.aqua{
+    color: Aqua;
+}
+.aquamarine{
+    color: Aquamarine;
+}
+.azure{
+    color: Azure;
+}
+.beige{
+    color: Beige;
+}
+.bisque{
+    color: Bisque;
+}
+.black{
+    color: black;
+}
+.dark{
+    color: black;
+}
+.blanchedalmond{
+    color: BlanchedAlmond;
+}
+.blue{
+    color: blue;
+}
+.blueviolet{
+    color: blueviolet;
+}
+.brown{
+    color: brown;
+}
+.burlywood{
+    color: burlywood;
+}
+.cadetblue{
+    color: cadetblue;
+}
+.chartreuse{
+    color: chartreuse;
+}
+.chocolate{
+    color: chocolate;
+}
+.coral{
+    color: coral;
+}
+.cornflowerblue{
+    color: cornflowerblue;
+}
+.cornsilk{
+    color: cornsilk;
+}
+.crimson{
+    color: crimson;
+}
+.cyan{
+    color: cyan;
+}
+.darkblue{
+    color: darkblue;
+}
+.darkcyan{
+    color: darkcyan;
+}
+.darkgoldenrod{
+    color: darkgoldenrod;
+}
+.darkgray{
+    color: darkgray;
+}
+.darkgrey{
+    color: darkgrey;
+}
+.darkgreen{
+    color: darkgreen;
+}
+.darkkhaki{
+    color: darkkhaki;
+}
+.darkmagenta{
+    color: darkmagenta;
+}
+.darkolivegreen{
+    color: darkolivegreen;
+}
+.darkorange{
+    color: darkorange;
+}
+.darkorchid{
+    color: darkorchid;
+}
+.darkred{
+    color: darkred;
+}
+.darksalmon{
+    color: darksalmon;
+}
+.darkseagreen{
+    color: darkseagreen;
+}
+.darkslateblue{
+    color: darkslateblue;
+}
+.darkslategray{
+    color: darkslategray;
+}
+.darkslategrey{
+    color: darkslategrey;
+}
+.darkturquoise{
+    color: darkturquoise;
+}
+.darkviolet{
+    color: darkviolet;
+}
+.depppink{
+    color: deeppink;
+}
+.deepskyblue{
+    color: deepskyblue;
+}
+.dimgray{
+    color: dimgray;
+}
+.dimgrey{
+    color: dimgrey;
+}
+.dogerblue{
+    color: dodgerblue;
+}
+.firebrick{
+    color: firebrick;
+}
+.floralwhite{
+    color: floralwhite;
+}
+.forestgreen{
+    color: forestgreen;
+}
+.fuchsia{
+    color: fuchsia;
+}
+.gainsboro{
+    color: gainsboro;
+}
+.ghostwhite{
+    color: ghostwhite;
+}
+.gold{
+    color: gold;
+}
+.goldenrod{
+    color: goldenrod;
+}
+.gray{
+    color: gray;
+}
+.grey{
+    color: grey;
+}
+.green{
+    color: green;
+}
+.greenyellow{
+    color: greenyellow;
+}
+.honeydew{
+    color: honeydew;
+}
+.hotpink{
+    color: hotpink;
+}
+.indianred{
+    color: indianred;
+}
+.indigo{
+    color: indigo;
+}
+.ivory{
+    color: ivory;
+}
+.khaki{
+    color: khaki;
+}
+.lavender{
+    color: lavender;
+}
+.lavenderblush{
+    color: lavenderblush;
+}
+.lawngreen{
+    color: lawngreen;
+}
+.lemonchiifon{
+    color: lemonchiffon;
+}
+.lightblue{
+    color: lightblue;
+}
+.lightcoral{
+    color: lightcoral;
+}
+.lightcyan{
+    color: lightcyan;
+}
+.lightgoldenrodyellow{
+    color: lightgoldenrodyellow;
+}
+.lightgray{
+    color: lightgray;
+}
+.lightgrey{
+    color: lightgrey;
+}
+.lightgreen{
+    color: lightgreen;
+}
+.lightpink{
+    color: lightpink;
+}
+.lightsalmon{
+    color: lightsalmon;
+}
+.lightseagreen{
+    color: lightseagreen;
+}
+.lightskyblue{
+    color: lightskyblue;
+}
+.lightslategray{
+    color: lightslategray;
+}
+.lightslategrey{
+    color: lightslategrey;
+}
+.lightsteelblue{
+    color: lightsteelblue;
+}
+.lightyellow{
+    color: lightyellow;
+}
+.lime{
+    color: lime;
+}
+.limegreen{
+    color: limegreen;
+}
+.linen{
+    color: linen;
+}
+.magenta{
+    color: magenta;
+}
+.maroon{
+    color: maroon;
+}
+.mediumaquamarine{
+    color: mediumaquamarine;
+}
+.mediumblue{
+    color: mediumblue;
+}
+.mediumorchid{
+    color: mediumorchid;
+}
+.mediumpurple{
+    color: mediumpurple;
+}
+.mediumseagreen{
+    color: mediumseagreen;
+}
+.mediumslateblue{
+    color: mediumslateblue;
+}
+.mediumspringgreen{
+    color: mediumspringgreen;
+}
+.mediumturquoise{
+    color: mediumturquoise;
+}
+.mediumvioletred{
+    color: mediumvioletred;
+}
+.midnightblue{
+    color: midnightblue;
+}
+.mintcream{
+    color: mintcream;
+}
+.mistyrose{
+    color: mistyrose;
+}
+.moccasin{
+    color: moccasin;
+}
+.navajowhite{
+    color: navajowhite;
+}
+.navy{
+    color: navy;
+}
+.oldlace{
+    color: oldlace;
+}
+.olive{
+    color: olive;
+}
+.olivedrab{
+    color: olivedrab;
+}
+.orange{
+    color: orange;
+}
+.orangered{
+    color: orangered;
+}
+.orchid{
+    color: orchid;
+}
+.palegoldenrod{
+    color: palegoldenrod;
+}
+.palegreen{
+    color: palegreen;
+}
+.paleturquoise{
+    color: paleturquoise;
+}
+.palevioletred{
+    color: palevioletred;
+}
+.papayawhip{
+    color: papayawhip;
+}
+.peachpuff{
+    color: peachpuff;
+}
+.peru{
+    color: peru;
+}
+.pink{
+    color: pink;
+}
+.plum{
+    color: plum;
+}
+.powerblue{
+    color: powerblue;
+}
+.purple{
+    color: purple;
+}
+.rebeccapurple{
+    color: rebeccapurple;
+}
+.red{
+    color:red;
+}
+.rosybrown{
+    color:rosybrown;
+}
+.royalblue{
+    color:royalblue;
+}
+.saddlebrown{
+    color:saddlebrown;
+}
+.salmon{
+    color: salmon;
+}
+.sandybrown{
+    color: sandybrown;
+}
+.seagreen{
+    color: seagreen;
+}
+.seashell{
+    color: seashell;
+}
+.sienna{
+    color: sienna;
+}
+.silver{
+    color: silver;
+}
+.skyblue{
+    color: skyblue;
+}
+.slateblue{
+    color: slateblue;
+}
+.slategray{
+    color: slategray;
+}
+.slategrey{
+    color: slategrey;
+}
+.snow{
+    color: snow;
+}
+.springgreen{
+    color: springgreen;
+}
+.steelblue{
+    color: steelblue;
+}
+.tan{
+    color: tan;
+}
+.teal{
+    color: teal;
+}
+.thistle{
+    color: thistle;
+}
+.tomato{
+    color: tomato;
+}
+.turquoise{
+    color: turquoise;
+}
+.violet{
+    color: violet;
+}
+.wheat{
+    color: wheat;
+}
+.white{
+    color: white;
+}
+.whitesmoke{
+    color: whitesmoke;
+}
+.yellow{
+    color: yellow;
+}
+.yellowgreen{
+    color: yellowgreen;
+}
+.coffee{
+    color: #c0ffee;
+}
+.yoonsunghentai{
+    color: #587785;
+}
+.haengsinms{
+    color: #7d3147;
+}
+.shadow-aliceblue{
+    text-shadow: 2px 2px AliceBlue;
+}
+.shadow-antiquewhite{
+    text-shadow: 2px 2px AntiqueWhite;
+}
+.shadow-aqua{
+    text-shadow: 2px 2px Aqua;
+}
+.shadow-aquamarine{
+    text-shadow: 2px 2px Aquamarine;
+}
+.shadow-azure{
+    text-shadow: 2px 2px Azure;
+}
+.shadow-beige{
+    text-shadow: 2px 2px Beige;
+}
+.shadow-bisque{
+    text-shadow: 2px 2px Bisque;
+}
+.shadow-black{
+    text-shadow: 2px 2px black;
+}
+.shadow-dark{
+    text-shadow: 2px 2px black;
+}
+.shadow-blanchedalmond{
+    text-shadow: 2px 2px BlanchedAlmond;
+}
+.shadow-blue{
+    text-shadow: 2px 2px blue;
+}
+.shadow-blueviolet{
+    text-shadow: 2px 2px blueviolet;
+}
+.shadow-brown{
+    text-shadow: 2px 2px brown;
+}
+.shadow-burlywood{
+    text-shadow: 2px 2px burlywood;
+}
+.shadow-cadetblue{
+    text-shadow: 2px 2px cadetblue;
+}
+.shadow-chartreuse{
+    text-shadow: 2px 2px chartreuse;
+}
+.shadow-chocolate{
+    text-shadow: 2px 2px chocolate;
+}
+.shadow-coral{
+    text-shadow: 2px 2px coral;
+}
+.shadow-cornflowerblue{
+    text-shadow: 2px 2px cornflowerblue;
+}
+.shadow-cornsilk{
+    text-shadow: 2px 2px cornsilk;
+}
+.shadow-crimson{
+    text-shadow: 2px 2px crimson;
+}
+.shadow-cyan{
+    text-shadow: 2px 2px cyan;
+}
+.shadow-darkblue{
+    text-shadow: 2px 2px darkblue;
+}
+.shadow-darkcyan{
+    text-shadow: 2px 2px darkcyan;
+}
+.shadow-darkgoldenrod{
+    text-shadow: 2px 2px darkgoldenrod;
+}
+.shadow-darkgray{
+    text-shadow: 2px 2px darkgray;
+}
+.shadow-darkgrey{
+    text-shadow: 2px 2px darkgrey;
+}
+.shadow-darkgreen{
+    text-shadow: 2px 2px darkgreen;
+}
+.shadow-darkkhaki{
+    text-shadow: 2px 2px darkkhaki;
+}
+.shadow-darkmagenta{
+    text-shadow: 2px 2px darkmagenta;
+}
+.shadow-darkolivegreen{
+    text-shadow: 2px 2px darkolivegreen;
+}
+.shadow-darkorange{
+    text-shadow: 2px 2px darkorange;
+}
+.shadow-darkorchid{
+    text-shadow: 2px 2px darkorchid;
+}
+.shadow-darkred{
+    text-shadow: 2px 2px darkred;
+}
+.shadow-darksalmon{
+    text-shadow: 2px 2px darksalmon;
+}
+.shadow-darkseagreen{
+    text-shadow: 2px 2px darkseagreen;
+}
+.shadow-darkslateblue{
+    text-shadow: 2px 2px darkslateblue;
+}
+.shadow-darkslategray{
+    text-shadow: 2px 2px darkslategray;
+}
+.shadow-darkslategrey{
+    text-shadow: 2px 2px darkslategrey;
+}
+.shadow-darkturquoise{
+    text-shadow: 2px 2px darkturquoise;
+}
+.shadow-darkviolet{
+    text-shadow: 2px 2px darkviolet;
+}
+.shadow-depppink{
+    text-shadow: 2px 2px deeppink;
+}
+.shadow-deepskyblue{
+    text-shadow: 2px 2px deepskyblue;
+}
+.shadow-dimgray{
+    text-shadow: 2px 2px dimgray;
+}
+.shadow-dimgrey{
+    text-shadow: 2px 2px dimgrey;
+}
+.shadow-dogerblue{
+    text-shadow: 2px 2px dodgerblue;
+}
+.shadow-firebrick{
+    text-shadow: 2px 2px firebrick;
+}
+.shadow-floralwhite{
+    text-shadow: 2px 2px floralwhite;
+}
+.shadow-forestgreen{
+    text-shadow: 2px 2px forestgreen;
+}
+.shadow-fuchsia{
+    text-shadow: 2px 2px fuchsia;
+}
+.shadow-gainsboro{
+    text-shadow: 2px 2px gainsboro;
+}
+.shadow-ghostwhite{
+    text-shadow: 2px 2px ghostwhite;
+}
+.shadow-gold{
+    text-shadow: 2px 2px gold;
+}
+.shadow-goldenrod{
+    text-shadow: 2px 2px goldenrod;
+}
+.shadow-gray{
+    text-shadow: 2px 2px gray;
+}
+.shadow-grey{
+    text-shadow: 2px 2px grey;
+}
+.shadow-green{
+    text-shadow: 2px 2px green;
+}
+.shadow-greenyellow{
+    text-shadow: 2px 2px greenyellow;
+}
+.shadow-honeydew{
+    text-shadow: 2px 2px honeydew;
+}
+.shadow-hotpink{
+    text-shadow: 2px 2px hotpink;
+}
+.shadow-indianred{
+    text-shadow: 2px 2px indianred;
+}
+.shadow-indigo{
+    text-shadow: 2px 2px indigo;
+}
+.shadow-ivory{
+    text-shadow: 2px 2px ivory;
+}
+.shadow-khaki{
+    text-shadow: 2px 2px khaki;
+}
+.shadow-lavender{
+    text-shadow: 2px 2px lavender;
+}
+.shadow-lavenderblush{
+    text-shadow: 2px 2px lavenderblush;
+}
+.shadow-lawngreen{
+    text-shadow: 2px 2px lawngreen;
+}
+.shadow-lemonchiifon{
+    text-shadow: 2px 2px lemonchiffon;
+}
+.shadow-lightblue{
+    text-shadow: 2px 2px lightblue;
+}
+.shadow-lightcoral{
+    text-shadow: 2px 2px lightcoral;
+}
+.shadow-lightcyan{
+    text-shadow: 2px 2px lightcyan;
+}
+.shadow-lightgoldenrodyellow{
+    text-shadow: 2px 2px lightgoldenrodyellow;
+}
+.shadow-lightgray{
+    text-shadow: 2px 2px lightgray;
+}
+.shadow-lightgrey{
+    text-shadow: 2px 2px lightgrey;
+}
+.shadow-lightgreen{
+    text-shadow: 2px 2px lightgreen;
+}
+.shadow-lightpink{
+    text-shadow: 2px 2px lightpink;
+}
+.shadow-lightsalmon{
+    text-shadow: 2px 2px lightsalmon;
+}
+.shadow-lightseagreen{
+    text-shadow: 2px 2px lightseagreen;
+}
+.shadow-lightskyblue{
+    text-shadow: 2px 2px lightskyblue;
+}
+.shadow-lightslategray{
+    text-shadow: 2px 2px lightslategray;
+}
+.shadow-lightslategrey{
+    text-shadow: 2px 2px lightslategrey;
+}
+.shadow-lightsteelblue{
+    text-shadow: 2px 2px lightsteelblue;
+}
+.shadow-lightyellow{
+    text-shadow: 2px 2px lightyellow;
+}
+.shadow-lime{
+    text-shadow: 2px 2px lime;
+}
+.shadow-limegreen{
+    text-shadow: 2px 2px limegreen;
+}
+.shadow-linen{
+    text-shadow: 2px 2px linen;
+}
+.shadow-magenta{
+    text-shadow: 2px 2px magenta;
+}
+.shadow-maroon{
+    text-shadow: 2px 2px maroon;
+}
+.shadow-mediumaquamarine{
+    text-shadow: 2px 2px mediumaquamarine;
+}
+.shadow-mediumblue{
+    text-shadow: 2px 2px mediumblue;
+}
+.shadow-mediumorchid{
+    text-shadow: 2px 2px mediumorchid;
+}
+.shadow-mediumpurple{
+    text-shadow: 2px 2px mediumpurple;
+}
+.shadow-mediumseagreen{
+    text-shadow: 2px 2px mediumseagreen;
+}
+.shadow-mediumslateblue{
+    text-shadow: 2px 2px mediumslateblue;
+}
+.shadow-mediumspringgreen{
+    text-shadow: 2px 2px mediumspringgreen;
+}
+.shadow-mediumturquoise{
+    text-shadow: 2px 2px mediumturquoise;
+}
+.shadow-mediumvioletred{
+    text-shadow: 2px 2px mediumvioletred;
+}
+.shadow-midnightblue{
+    text-shadow: 2px 2px midnightblue;
+}
+.shadow-mintcream{
+    text-shadow: 2px 2px mintcream;
+}
+.shadow-mistyrose{
+    text-shadow: 2px 2px mistyrose;
+}
+.shadow-moccasin{
+    text-shadow: 2px 2px moccasin;
+}
+.shadow-navajowhite{
+    text-shadow: 2px 2px navajowhite;
+}
+.shadow-navy{
+    text-shadow: 2px 2px navy;
+}
+.shadow-oldlace{
+    text-shadow: 2px 2px oldlace;
+}
+.shadow-olive{
+    text-shadow: 2px 2px olive;
+}
+.shadow-olivedrab{
+    text-shadow: 2px 2px olivedrab;
+}
+.shadow-orange{
+    text-shadow: 2px 2px orange;
+}
+.shadow-orangered{
+    text-shadow: 2px 2px orangered;
+}
+.shadow-orchid{
+    text-shadow: 2px 2px orchid;
+}
+.shadow-palegoldenrod{
+    text-shadow: 2px 2px palegoldenrod;
+}
+.shadow-palegreen{
+    text-shadow: 2px 2px palegreen;
+}
+.shadow-paleturquoise{
+    text-shadow: 2px 2px paleturquoise;
+}
+.shadow-palevioletred{
+    text-shadow: 2px 2px palevioletred;
+}
+.shadow-papayawhip{
+    text-shadow: 2px 2px papayawhip;
+}
+.shadow-peachpuff{
+    text-shadow: 2px 2px peachpuff;
+}
+.shadow-peru{
+    text-shadow: 2px 2px peru;
+}
+.shadow-pink{
+    text-shadow: 2px 2px pink;
+}
+.shadow-plum{
+    text-shadow: 2px 2px plum;
+}
+.shadow-powerblue{
+    text-shadow: 2px 2px powerblue;
+}
+.shadow-purple{
+    text-shadow: 2px 2px purple;
+}
+.shadow-rebeccapurple{
+    text-shadow: 2px 2px rebeccapurple;
+}
+.shadow-red{
+    color:red;
+}
+.shadow-rosybrown{
+    color:rosybrown;
+}
+.shadow-royalblue{
+    color:royalblue;
+}
+.shadow-saddlebrown{
+    color:saddlebrown;
+}
+.shadow-salmon{
+    text-shadow: 2px 2px salmon;
+}
+.shadow-sandybrown{
+    text-shadow: 2px 2px sandybrown;
+}
+.shadow-seagreen{
+    text-shadow: 2px 2px seagreen;
+}
+.shadow-seashell{
+    text-shadow: 2px 2px seashell;
+}
+.shadow-sienna{
+    text-shadow: 2px 2px sienna;
+}
+.shadow-silver{
+    text-shadow: 2px 2px silver;
+}
+.shadow-skyblue{
+    text-shadow: 2px 2px skyblue;
+}
+.shadow-slateblue{
+    text-shadow: 2px 2px slateblue;
+}
+.shadow-slategray{
+    text-shadow: 2px 2px slategray;
+}
+.shadow-slategrey{
+    text-shadow: 2px 2px slategrey;
+}
+.shadow-snow{
+    text-shadow: 2px 2px snow;
+}
+.shadow-springgreen{
+    text-shadow: 2px 2px springgreen;
+}
+.shadow-steelblue{
+    text-shadow: 2px 2px steelblue;
+}
+.shadow-tan{
+    text-shadow: 2px 2px tan;
+}
+.shadow-teal{
+    text-shadow: 2px 2px teal;
+}
+.shadow-thistle{
+    text-shadow: 2px 2px thistle;
+}
+.shadow-tomato{
+    text-shadow: 2px 2px tomato;
+}
+.shadow-turquoise{
+    text-shadow: 2px 2px turquoise;
+}
+.shadow-violet{
+    text-shadow: 2px 2px violet;
+}
+.shadow-wheat{
+    text-shadow: 2px 2px wheat;
+}
+.shadow-white{
+    text-shadow: 2px 2px white;
+}
+.shadow-whitesmoke{
+    text-shadow: 2px 2px whitesmoke;
+}
+.shadow-yellow{
+    text-shadow: 2px 2px yellow;
+}
+.shadow-yellowgreen{
+    text-shadow: 2px 2px yellowgreen;
+}
+.shadow-coffee{
+    text-shadow: 2px 2px #c0ffee;
+}
+.shadow-yoonsunghentai{
+    text-shadow: 2px 2px #587785;
+}
+.shadow-haengsinms{
+    text-shadow: 2px 2px #7d3147;
+}
+.blurshadow-aliceblue{
+    text-shadow: 2px 2px 3px AliceBlue;
+}
+.blurshadow-antiquewhite{
+    text-shadow: 2px 2px 3px AntiqueWhite;
+}
+.blurshadow-aqua{
+    text-shadow: 2px 2px 3px Aqua;
+}
+.blurshadow-aquamarine{
+    text-shadow: 2px 2px 3px Aquamarine;
+}
+.blurshadow-azure{
+    text-shadow: 2px 2px 3px Azure;
+}
+.blurshadow-beige{
+    text-shadow: 2px 2px 3px Beige;
+}
+.blurshadow-bisque{
+    text-shadow: 2px 2px 3px Bisque;
+}
+.blurshadow-black{
+    text-shadow: 2px 2px 3px black;
+}
+.blurshadow-dark{
+    text-shadow: 2px 2px 3px black;
+}
+.blurshadow-blanchedalmond{
+    text-shadow: 2px 2px 3px BlanchedAlmond;
+}
+.blurshadow-blue{
+    text-shadow: 2px 2px 3px blue;
+}
+.blurshadow-blueviolet{
+    text-shadow: 2px 2px 3px blueviolet;
+}
+.blurshadow-brown{
+    text-shadow: 2px 2px 3px brown;
+}
+.blurshadow-burlywood{
+    text-shadow: 2px 2px 3px burlywood;
+}
+.blurshadow-cadetblue{
+    text-shadow: 2px 2px 3px cadetblue;
+}
+.blurshadow-chartreuse{
+    text-shadow: 2px 2px 3px chartreuse;
+}
+.blurshadow-chocolate{
+    text-shadow: 2px 2px 3px chocolate;
+}
+.blurshadow-coral{
+    text-shadow: 2px 2px 3px coral;
+}
+.blurshadow-cornflowerblue{
+    text-shadow: 2px 2px 3px cornflowerblue;
+}
+.blurshadow-cornsilk{
+    text-shadow: 2px 2px 3px cornsilk;
+}
+.blurshadow-crimson{
+    text-shadow: 2px 2px 3px crimson;
+}
+.blurshadow-cyan{
+    text-shadow: 2px 2px 3px cyan;
+}
+.blurshadow-darkblue{
+    text-shadow: 2px 2px 3px darkblue;
+}
+.blurshadow-darkcyan{
+    text-shadow: 2px 2px 3px darkcyan;
+}
+.blurshadow-darkgoldenrod{
+    text-shadow: 2px 2px 3px darkgoldenrod;
+}
+.blurshadow-darkgray{
+    text-shadow: 2px 2px 3px darkgray;
+}
+.blurshadow-darkgrey{
+    text-shadow: 2px 2px 3px darkgrey;
+}
+.blurshadow-darkgreen{
+    text-shadow: 2px 2px 3px darkgreen;
+}
+.blurshadow-darkkhaki{
+    text-shadow: 2px 2px 3px darkkhaki;
+}
+.blurshadow-darkmagenta{
+    text-shadow: 2px 2px 3px darkmagenta;
+}
+.blurshadow-darkolivegreen{
+    text-shadow: 2px 2px 3px darkolivegreen;
+}
+.blurshadow-darkorange{
+    text-shadow: 2px 2px 3px darkorange;
+}
+.blurshadow-darkorchid{
+    text-shadow: 2px 2px 3px darkorchid;
+}
+.blurshadow-darkred{
+    text-shadow: 2px 2px 3px darkred;
+}
+.blurshadow-darksalmon{
+    text-shadow: 2px 2px 3px darksalmon;
+}
+.blurshadow-darkseagreen{
+    text-shadow: 2px 2px 3px darkseagreen;
+}
+.blurshadow-darkslateblue{
+    text-shadow: 2px 2px 3px darkslateblue;
+}
+.blurshadow-darkslategray{
+    text-shadow: 2px 2px 3px darkslategray;
+}
+.blurshadow-darkslategrey{
+    text-shadow: 2px 2px 3px darkslategrey;
+}
+.blurshadow-darkturquoise{
+    text-shadow: 2px 2px 3px darkturquoise;
+}
+.blurshadow-darkviolet{
+    text-shadow: 2px 2px 3px darkviolet;
+}
+.blurshadow-depppink{
+    text-shadow: 2px 2px 3px deeppink;
+}
+.blurshadow-deepskyblue{
+    text-shadow: 2px 2px 3px deepskyblue;
+}
+.blurshadow-dimgray{
+    text-shadow: 2px 2px 3px dimgray;
+}
+.blurshadow-dimgrey{
+    text-shadow: 2px 2px 3px dimgrey;
+}
+.blurshadow-dogerblue{
+    text-shadow: 2px 2px 3px dodgerblue;
+}
+.blurshadow-firebrick{
+    text-shadow: 2px 2px 3px firebrick;
+}
+.blurshadow-floralwhite{
+    text-shadow: 2px 2px 3px floralwhite;
+}
+.blurshadow-forestgreen{
+    text-shadow: 2px 2px 3px forestgreen;
+}
+.blurshadow-fuchsia{
+    text-shadow: 2px 2px 3px fuchsia;
+}
+.blurshadow-gainsboro{
+    text-shadow: 2px 2px 3px gainsboro;
+}
+.blurshadow-ghostwhite{
+    text-shadow: 2px 2px 3px ghostwhite;
+}
+.blurshadow-gold{
+    text-shadow: 2px 2px 3px gold;
+}
+.blurshadow-goldenrod{
+    text-shadow: 2px 2px 3px goldenrod;
+}
+.blurshadow-gray{
+    text-shadow: 2px 2px 3px gray;
+}
+.blurshadow-grey{
+    text-shadow: 2px 2px 3px grey;
+}
+.blurshadow-green{
+    text-shadow: 2px 2px 3px green;
+}
+.blurshadow-greenyellow{
+    text-shadow: 2px 2px 3px greenyellow;
+}
+.blurshadow-honeydew{
+    text-shadow: 2px 2px 3px honeydew;
+}
+.blurshadow-hotpink{
+    text-shadow: 2px 2px 3px hotpink;
+}
+.blurshadow-indianred{
+    text-shadow: 2px 2px 3px indianred;
+}
+.blurshadow-indigo{
+    text-shadow: 2px 2px 3px indigo;
+}
+.blurshadow-ivory{
+    text-shadow: 2px 2px 3px ivory;
+}
+.blurshadow-khaki{
+    text-shadow: 2px 2px 3px khaki;
+}
+.blurshadow-lavender{
+    text-shadow: 2px 2px 3px lavender;
+}
+.blurshadow-lavenderblush{
+    text-shadow: 2px 2px 3px lavenderblush;
+}
+.blurshadow-lawngreen{
+    text-shadow: 2px 2px 3px lawngreen;
+}
+.blurshadow-lemonchiifon{
+    text-shadow: 2px 2px 3px lemonchiffon;
+}
+.blurshadow-lightblue{
+    text-shadow: 2px 2px 3px lightblue;
+}
+.blurshadow-lightcoral{
+    text-shadow: 2px 2px 3px lightcoral;
+}
+.blurshadow-lightcyan{
+    text-shadow: 2px 2px 3px lightcyan;
+}
+.blurshadow-lightgoldenrodyellow{
+    text-shadow: 2px 2px 3px lightgoldenrodyellow;
+}
+.blurshadow-lightgray{
+    text-shadow: 2px 2px 3px lightgray;
+}
+.blurshadow-lightgrey{
+    text-shadow: 2px 2px 3px lightgrey;
+}
+.blurshadow-lightgreen{
+    text-shadow: 2px 2px 3px lightgreen;
+}
+.blurshadow-lightpink{
+    text-shadow: 2px 2px 3px lightpink;
+}
+.blurshadow-lightsalmon{
+    text-shadow: 2px 2px 3px lightsalmon;
+}
+.blurshadow-lightseagreen{
+    text-shadow: 2px 2px 3px lightseagreen;
+}
+.blurshadow-lightskyblue{
+    text-shadow: 2px 2px 3px lightskyblue;
+}
+.blurshadow-lightslategray{
+    text-shadow: 2px 2px 3px lightslategray;
+}
+.blurshadow-lightslategrey{
+    text-shadow: 2px 2px 3px lightslategrey;
+}
+.blurshadow-lightsteelblue{
+    text-shadow: 2px 2px 3px lightsteelblue;
+}
+.blurshadow-lightyellow{
+    text-shadow: 2px 2px 3px lightyellow;
+}
+.blurshadow-lime{
+    text-shadow: 2px 2px 3px lime;
+}
+.blurshadow-limegreen{
+    text-shadow: 2px 2px 3px limegreen;
+}
+.blurshadow-linen{
+    text-shadow: 2px 2px 3px linen;
+}
+.blurshadow-magenta{
+    text-shadow: 2px 2px 3px magenta;
+}
+.blurshadow-maroon{
+    text-shadow: 2px 2px 3px maroon;
+}
+.blurshadow-mediumaquamarine{
+    text-shadow: 2px 2px 3px mediumaquamarine;
+}
+.blurshadow-mediumblue{
+    text-shadow: 2px 2px 3px mediumblue;
+}
+.blurshadow-mediumorchid{
+    text-shadow: 2px 2px 3px mediumorchid;
+}
+.blurshadow-mediumpurple{
+    text-shadow: 2px 2px 3px mediumpurple;
+}
+.blurshadow-mediumseagreen{
+    text-shadow: 2px 2px 3px mediumseagreen;
+}
+.blurshadow-mediumslateblue{
+    text-shadow: 2px 2px 3px mediumslateblue;
+}
+.blurshadow-mediumspringgreen{
+    text-shadow: 2px 2px 3px mediumspringgreen;
+}
+.blurshadow-mediumturquoise{
+    text-shadow: 2px 2px 3px mediumturquoise;
+}
+.blurshadow-mediumvioletred{
+    text-shadow: 2px 2px 3px mediumvioletred;
+}
+.blurshadow-midnightblue{
+    text-shadow: 2px 2px 3px midnightblue;
+}
+.blurshadow-mintcream{
+    text-shadow: 2px 2px 3px mintcream;
+}
+.blurshadow-mistyrose{
+    text-shadow: 2px 2px 3px mistyrose;
+}
+.blurshadow-moccasin{
+    text-shadow: 2px 2px 3px moccasin;
+}
+.blurshadow-navajowhite{
+    text-shadow: 2px 2px 3px navajowhite;
+}
+.blurshadow-navy{
+    text-shadow: 2px 2px 3px navy;
+}
+.blurshadow-oldlace{
+    text-shadow: 2px 2px 3px oldlace;
+}
+.blurshadow-olive{
+    text-shadow: 2px 2px 3px olive;
+}
+.blurshadow-olivedrab{
+    text-shadow: 2px 2px 3px olivedrab;
+}
+.blurshadow-orange{
+    text-shadow: 2px 2px 3px orange;
+}
+.blurshadow-orangered{
+    text-shadow: 2px 2px 3px orangered;
+}
+.blurshadow-orchid{
+    text-shadow: 2px 2px 3px orchid;
+}
+.blurshadow-palegoldenrod{
+    text-shadow: 2px 2px 3px palegoldenrod;
+}
+.blurshadow-palegreen{
+    text-shadow: 2px 2px 3px palegreen;
+}
+.blurshadow-paleturquoise{
+    text-shadow: 2px 2px 3px paleturquoise;
+}
+.blurshadow-palevioletred{
+    text-shadow: 2px 2px 3px palevioletred;
+}
+.blurshadow-papayawhip{
+    text-shadow: 2px 2px 3px papayawhip;
+}
+.blurshadow-peachpuff{
+    text-shadow: 2px 2px 3px peachpuff;
+}
+.blurshadow-peru{
+    text-shadow: 2px 2px 3px peru;
+}
+.blurshadow-pink{
+    text-shadow: 2px 2px 3px pink;
+}
+.blurshadow-plum{
+    text-shadow: 2px 2px 3px plum;
+}
+.blurshadow-powerblue{
+    text-shadow: 2px 2px 3px powerblue;
+}
+.blurshadow-purple{
+    text-shadow: 2px 2px 3px purple;
+}
+.blurshadow-rebeccapurple{
+    text-shadow: 2px 2px 3px rebeccapurple;
+}
+.blurshadow-red{
+    text-shadow: 2px 2px 3px red;
+}
+.blurshadow-rosybrown{
+    text-shadow: 2px 2px 3px rosybrown;
+}
+.blurshadow-royalblue{
+    text-shadow: 2px 2px 3px royalblue;
+}
+.blurshadow-saddlebrown{
+    text-shadow: 2px 2px 3px saddlebrown;
+}
+.blurshadow-salmon{
+    text-shadow: 2px 2px 3px salmon;
+}
+.blurshadow-sandybrown{
+    text-shadow: 2px 2px 3px sandybrown;
+}
+.blurshadow-seagreen{
+    text-shadow: 2px 2px 3px seagreen;
+}
+.blurshadow-seashell{
+    text-shadow: 2px 2px 3px seashell;
+}
+.blurshadow-sienna{
+    text-shadow: 2px 2px 3px sienna;
+}
+.blurshadow-silver{
+    text-shadow: 2px 2px 3px silver;
+}
+.blurshadow-skyblue{
+    text-shadow: 2px 2px 3px skyblue;
+}
+.blurshadow-slateblue{
+    text-shadow: 2px 2px 3px slateblue;
+}
+.blurshadow-slategray{
+    text-shadow: 2px 2px 3px slategray;
+}
+.blurshadow-slategrey{
+    text-shadow: 2px 2px 3px slategrey;
+}
+.blurshadow-snow{
+    text-shadow: 2px 2px 3px snow;
+}
+.blurshadow-springgreen{
+    text-shadow: 2px 2px 3px springgreen;
+}
+.blurshadow-steelblue{
+    text-shadow: 2px 2px 3px steelblue;
+}
+.blurshadow-tan{
+    text-shadow: 2px 2px 3px tan;
+}
+.blurshadow-teal{
+    text-shadow: 2px 2px 3px teal;
+}
+.blurshadow-thistle{
+    text-shadow: 2px 2px 3px thistle;
+}
+.blurshadow-tomato{
+    text-shadow: 2px 2px 3px tomato;
+}
+.blurshadow-turquoise{
+    text-shadow: 2px 2px 3px turquoise;
+}
+.blurshadow-violet{
+    text-shadow: 2px 2px 3px violet;
+}
+.blurshadow-wheat{
+    text-shadow: 2px 2px 3px wheat;
+}
+.blurshadow-white{
+    text-shadow: 2px 2px 3px white;
+}
+.blurshadow-whitesmoke{
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+.blurshadow-yellow{
+    text-shadow: 2px 2px 3px yellow;
+}
+.blurshadow-yellowgreen{
+    text-shadow: 2px 2px 3px yellowgreen;
+}
+.blurshadow-coffee{
+    text-shadow: 2px 2px 3px #c0ffee;
+}
+.blurshadow-yoonsunghentai{
+    text-shadow: 2px 2px 3px #587785;
+}
+.blurshadow-haengsinms{
+    text-shadow: 2px 2px 3px #7d3147;
+}

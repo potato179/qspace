@@ -1,0 +1,489 @@
+.outline-aliceblue{
+    outline-color: AliceBlue;
+}
+.outline-antiquewhite{
+    outline-color: AntiqueWhite;
+}
+.outline-aqua{
+    outline-color: Aqua;
+}
+.outline-aquamarine{
+    outline-color: Aquamarine;
+}
+.outline-azure{
+    outline-color: Azure;
+}
+.outline-beige{
+    outline-color: Beige;
+}
+.outline-bisque{
+    outline-color: Bisque;
+}
+.outline-black{
+    outline-color: black;
+}
+.outline-dark{
+    outline-color: black;
+}
+.outline-blanchedalmond{
+    outline-color: BlanchedAlmond;
+}
+.outline-blue{
+    outline-color: blue;
+}
+.outline-blueviolet{
+    outline-color: blueviolet;
+}
+.outline-brown{
+    outline-color: brown;
+}
+.outline-burlywood{
+    outline-color: burlywood;
+}
+.outline-cadetblue{
+    outline-color: cadetblue;
+}
+.outline-chartreuse{
+    outline-color: chartreuse;
+}
+.outline-chocolate{
+    outline-color: chocolate;
+}
+.outline-coral{
+    outline-color: coral;
+}
+.outline-cornflowerblue{
+    outline-color: cornflowerblue;
+}
+.outline-cornsilk{
+    outline-color: cornsilk;
+}
+.outline-crimson{
+    outline-color: crimson;
+}
+.outline-cyan{
+    outline-color: cyan;
+}
+.outline-darkblue{
+    outline-color: darkblue;
+}
+.outline-darkcyan{
+    outline-color: darkcyan;
+}
+.outline-darkgoldenrod{
+    outline-color: darkgoldenrod;
+}
+.outline-darkgray{
+    outline-color: darkgray;
+}
+.outline-darkgrey{
+    outline-color: darkgrey;
+}
+.outline-darkgreen{
+    outline-color: darkgreen;
+}
+.outline-darkkhaki{
+    outline-color: darkkhaki;
+}
+.outline-darkmagenta{
+    outline-color: darkmagenta;
+}
+.outline-darkolivegreen{
+    outline-color: darkolivegreen;
+}
+.outline-darkorange{
+    outline-color: darkorange;
+}
+.outline-darkorchid{
+    outline-color: darkorchid;
+}
+.outline-darkred{
+    outline-color: darkred;
+}
+.outline-darksalmon{
+    outline-color: darksalmon;
+}
+.outline-darkseagreen{
+    outline-color: darkseagreen;
+}
+.outline-darkslateblue{
+    outline-color: darkslateblue;
+}
+.outline-darkslategray{
+    outline-color: darkslategray;
+}
+.outline-darkslategrey{
+    outline-color: darkslategrey;
+}
+.outline-darkturquoise{
+    outline-color: darkturquoise;
+}
+.outline-darkviolet{
+    outline-color: darkviolet;
+}
+.outline-depppink{
+    outline-color: deeppink;
+}
+.outline-deepskyblue{
+    outline-color: deepskyblue;
+}
+.outline-dimgray{
+    outline-color: dimgray;
+}
+.outline-dimgrey{
+    outline-color: dimgrey;
+}
+.outline-dogerblue{
+    outline-color: dodgerblue;
+}
+.outline-firebrick{
+    outline-color: firebrick;
+}
+.outline-floralwhite{
+    outline-color: floralwhite;
+}
+.outline-forestgreen{
+    outline-color: forestgreen;
+}
+.outline-fuchsia{
+    outline-color: fuchsia;
+}
+.outline-gainsboro{
+    outline-color: gainsboro;
+}
+.outline-ghostwhite{
+    outline-color: ghostwhite;
+}
+.outline-gold{
+    outline-color: gold;
+}
+.outline-goldenrod{
+    outline-color: goldenrod;
+}
+.outline-gray{
+    outline-color: gray;
+}
+.outline-grey{
+    outline-color: grey;
+}
+.outline-green{
+    outline-color: green;
+}
+.outline-greenyellow{
+    outline-color: greenyellow;
+}
+.outline-honeydew{
+    outline-color: honeydew;
+}
+.outline-hotpink{
+    outline-color: hotpink;
+}
+.outline-indianred{
+    outline-color: indianred;
+}
+.outline-indigo{
+    outline-color: indigo;
+}
+.outline-ivory{
+    outline-color: ivory;
+}
+.outline-khaki{
+    outline-color: khaki;
+}
+.outline-lavender{
+    outline-color: lavender;
+}
+.outline-lavenderblush{
+    outline-color: lavenderblush;
+}
+.outline-lawngreen{
+    outline-color: lawngreen;
+}
+.outline-lemonchiifon{
+    outline-color: lemonchiffon;
+}
+.outline-lightblue{
+    outline-color: lightblue;
+}
+.outline-lightcoral{
+    outline-color: lightcoral;
+}
+.outline-lightcyan{
+    outline-color: lightcyan;
+}
+.outline-lightgoldenrodyellow{
+    outline-color: lightgoldenrodyellow;
+}
+.outline-lightgray{
+    outline-color: lightgray;
+}
+.outline-lightgrey{
+    outline-color: lightgrey;
+}
+.outline-lightgreen{
+    outline-color: lightgreen;
+}
+.outline-lightpink{
+    outline-color: lightpink;
+}
+.outline-lightsalmon{
+    outline-color: lightsalmon;
+}
+.outline-lightseagreen{
+    outline-color: lightseagreen;
+}
+.outline-lightskyblue{
+    outline-color: lightskyblue;
+}
+.outline-lightslategray{
+    outline-color: lightslategray;
+}
+.outline-lightslategrey{
+    outline-color: lightslategrey;
+}
+.outline-lightsteelblue{
+    outline-color: lightsteelblue;
+}
+.outline-lightyellow{
+    outline-color: lightyellow;
+}
+.outline-lime{
+    outline-color: lime;
+}
+.outline-limegreen{
+    outline-color: limegreen;
+}
+.outline-linen{
+    outline-color: linen;
+}
+.outline-magenta{
+    outline-color: magenta;
+}
+.outline-maroon{
+    outline-color: maroon;
+}
+.outline-mediumaquamarine{
+    outline-color: mediumaquamarine;
+}
+.outline-mediumblue{
+    outline-color: mediumblue;
+}
+.outline-mediumorchid{
+    outline-color: mediumorchid;
+}
+.outline-mediumpurple{
+    outline-color: mediumpurple;
+}
+.outline-mediumseagreen{
+    outline-color: mediumseagreen;
+}
+.outline-mediumslateblue{
+    outline-color: mediumslateblue;
+}
+.outline-mediumspringgreen{
+    outline-color: mediumspringgreen;
+}
+.outline-mediumturquoise{
+    outline-color: mediumturquoise;
+}
+.outline-mediumvioletred{
+    outline-color: mediumvioletred;
+}
+.outline-midnightblue{
+    outline-color: midnightblue;
+}
+.outline-mintcream{
+    outline-color: mintcream;
+}
+.outline-mistyrose{
+    outline-color: mistyrose;
+}
+.outline-moccasin{
+    outline-color: moccasin;
+}
+.outline-navajowhite{
+    outline-color: navajowhite;
+}
+.outline-navy{
+    outline-color: navy;
+}
+.outline-oldlace{
+    outline-color: oldlace;
+}
+.outline-olive{
+    outline-color: olive;
+}
+.outline-olivedrab{
+    outline-color: olivedrab;
+}
+.outline-orange{
+    outline-color: orange;
+}
+.outline-orangered{
+    outline-color: orangered;
+}
+.outline-orchid{
+    outline-color: orchid;
+}
+.outline-palegoldenrod{
+    outline-color: palegoldenrod;
+}
+.outline-palegreen{
+    outline-color: palegreen;
+}
+.outline-paleturquoise{
+    outline-color: paleturquoise;
+}
+.outline-palevioletred{
+    outline-color: palevioletred;
+}
+.outline-papayawhip{
+    outline-color: papayawhip;
+}
+.outline-peachpuff{
+    outline-color: peachpuff;
+}
+.outline-peru{
+    outline-color: peru;
+}
+.outline-pink{
+    outline-color: pink;
+}
+.outline-plum{
+    outline-color: plum;
+}
+.outline-powerblue{
+    outline-color: powerblue;
+}
+.outline-purple{
+    outline-color: purple;
+}
+.outline-rebeccapurple{
+    outline-color: rebeccapurple;
+}
+.outline-red{
+    outline-color:red;
+}
+.outline-rosybrown{
+    outline-color:rosybrown;
+}
+.outline-royalblue{
+    outline-color:royalblue;
+}
+.outline-saddlebrown{
+    outline-color:saddlebrown;
+}
+.outline-salmon{
+    outline-color: salmon;
+}
+.outline-sandybrown{
+    outline-color: sandybrown;
+}
+.outline-seagreen{
+    outline-color: seagreen;
+}
+.outline-seashell{
+    outline-color: seashell;
+}
+.outline-sienna{
+    outline-color: sienna;
+}
+.outline-silver{
+    outline-color: silver;
+}
+.outline-skyblue{
+    outline-color: skyblue;
+}
+.outline-slateblue{
+    outline-color: slateblue;
+}
+.outline-slategray{
+    outline-color: slategray;
+}
+.outline-slategrey{
+    outline-color: slategrey;
+}
+.outline-snow{
+    outline-color: snow;
+}
+.outline-springgreen{
+    outline-color: springgreen;
+}
+.outline-steelblue{
+    outline-color: steelblue;
+}
+.outline-tan{
+    outline-color: tan;
+}
+.outline-teal{
+    outline-color: teal;
+}
+.outline-thistle{
+    outline-color: thistle;
+}
+.outline-tomato{
+    outline-color: tomato;
+}
+.outline-turquoise{
+    outline-color: turquoise;
+}
+.outline-violet{
+    outline-color: violet;
+}
+.outline-wheat{
+    outline-color: wheat;
+}
+.outline-white{
+    outline-color: white;
+}
+.outline-whitesmoke{
+    outline-color: whitesmoke;
+}
+.outline-yellow{
+    outline-color: yellow;
+}
+.outline-yellowgreen{
+    outline-color: yellowgreen;
+}
+.outline-coffee{
+    outline-color: #c0ffee;
+}
+.outline-yoonsunghentai{
+    outline-color: #587785;
+}
+.outline-haengsinms{
+    outline-color: #7d3147;
+}
+.outline-dotted{
+    outline-style: dotted;
+}
+.outline-dashed{
+    outline-style: dashed;
+}
+.outline-solid{
+    outline-style: solid;
+}
+.outline-double{
+    outline-style: double;
+}
+.outline-groove{
+    outline-style: groove;
+}
+.outline-ridge{
+    outline-style: ridge;
+}
+.outline-inset{
+    outline-style: inset;
+}
+.outline-outset{
+    outline-style: outset;
+}
+.outline-thin{
+    outline-width: thin;
+}
+.outline-medium{
+    outline-width: medium;
+}
+.outline-thick{
+    outline-width: thick;
+}

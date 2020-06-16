@@ -4,6 +4,7 @@
   "description": "Node.js, MySql을 사용한 컴퓨터, 코딩에 대해 이야기하는 커뮤니티와 코딩 문제를 푸는 사이트 (개발중, 9월 중 출시 예정)",
   "main": "server.js",
   "dependencies": {
+    "crypto": "^1.0.1",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",

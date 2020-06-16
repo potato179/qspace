@@ -1,0 +1,641 @@
+.op1{
+    opacity: 0.1;
+}
+.op2{
+    opacity: 0.2;
+}
+.op3{
+    opacity: 0.3;
+}
+.op4{
+    opacity: 0.4;
+}
+.op5{
+    opacity: 0.5;
+}
+.op6{
+    opacity: 0.6;
+}
+.op7{
+    opacity: 0.7;
+}
+.op8{
+    opacity: 0.8;
+}
+.op9{
+    opacity: 0.9;
+}
+.bg-black{
+    background: black;
+}
+.box-antiquewhite{
+    background-color: AntiqueWhite;
+    color: #051428;
+}
+.box-aqua{
+    background-color: Aqua;
+    color: #FF0000;
+}
+.box-aquamarine{
+    background-color: Aquamarine;
+    color: #80002B;
+}
+.box-azure{
+    background-color: Azure;
+    color: #0F0000;
+}
+.box-beige{
+    background-color: Beige;
+    color: #0A0A23;
+}
+.box-bisque{
+    background-color: Bisque;
+    color: #0A0A23;
+}
+.box-black{
+    background-color: black;
+    color: #FFFFFF
+}
+.box-dark{
+    background-color: black;
+    color: white;
+}
+.box-blanchedalmond{
+    background-color: BlanchedAlmond;
+    color: #001432;
+}
+.box-blue{
+    background-color: blue;
+    color: #FFFF00;
+}
+.box-blueviolet{
+    background-color: blueviolet;
+    color: #75D41D;
+}
+.box-brown{
+    background-color: brown;
+    color: #5AD5D5;
+}
+.box-burlywood{
+    background-color: burlywood;
+    color: #214778;
+}
+.box-cadetblue{
+    background-color: cadetblue;
+    color: #A0615F;
+}
+.box-chartreuse{
+    background-color: chartreuse;
+    color: #8000FF;
+}
+.box-chocolate{
+    background-color: chocolate;
+    color: #2D9601;
+}
+.box-coral{
+    background-color: coral;
+    color: #0080AF;
+}
+.box-cornflowerblue{
+    background-color: cornflowerblue;
+    color: #9B6A12;
+}
+.box-cornsilk{
+    background-color: cornsilk;
+    color: #000723;
+}
+.box-crimson{
+    background-color: crimson;
+    color: #23EBC3;
+}
+.box-cyan{
+    background-color: cyan;
+    color: #FF0000;
+}
+.box-darkblue{
+    background-color: darkblue;
+    color: #FFFF73;
+}
+.box-darkcyan{
+    background-color: darkcyan;
+    color: #FF7474;
+}
+.box-darkgoldenrod{
+    background-color: darkgoldenrod;
+    color: #4779F4;
+}
+.box-darkgray{
+    background-color: darkgray;
+    color: #5A5A5A;
+}
+.box-darkgrey{
+    background-color: darkgrey;
+    color: #5A5A5A;
+}
+.box-darkgreen{
+    background-color: darkgreen;
+    color: #FF9BFF;
+}
+.box-darkkhaki{
+    background-color: darkkhaki;
+    color: #424894;
+}
+.box-darkmagenta{
+    background-color: darkmagenta;
+    color: #74FF74;
+}
+.box-darkolivegreen{
+    background-color: darkolivegreen;
+    color: #AA9410;
+}
+.box-darkorange{
+    background-color: darkorange;
+    color: #0073FF;
+}
+.box-darkorchid{
+    background-color: darkorchid;
+    color: #88CD33;
+}
+.box-darkred{
+    background-color: darkred;
+    color: #F4FFFF;
+}
+.box-darksalmon{
+    background-color: darksalmon;
+    color: #166985;
+}
+.box-darkseagreen{
+    background-color: darkseagreen;
+    color: #704370;
+}
+.box-darkslateblue{
+    background-color: darkslateblue;
+    color: #B7C274;
+}
+.box-darkslategray{
+    background-color: darkslategray;
+    color: #D0B0B0;
+}
+.box-darkslategrey{
+    background-color: darkslategrey;
+    color: #D0B0B0;
+}
+.box-darkturquoise{
+    background-color: darkturquoise;
+    color: #FF312E;
+}
+.box-darkviolet{
+    background-color: darkviolet;
+    color: #6BFF2C;
+}
+.box-depppink{
+    background-color: deeppink;
+    color: #00EB6C;
+}
+.box-deepskyblue{
+    background-color: deepskyblue;
+    color: #FF4000;
+}
+.box-dimgray{
+    background-color: dimgray;
+    color: #969696;
+}
+.box-dimgrey{
+    background-color: dimgrey;
+    color: #969696;
+}
+.box-dogerblue{
+    background-color: dodgerblue;
+    color: #E16F00;
+}
+.box-firebrick{
+    background-color: firebrick;
+    color: #4DDDDD;
+}
+.box-floralwhite{
+    background-color: floralwhite;
+    color: #00050F;
+}
+.box-forestgreen{
+    background-color: forestgreen;
+    color: #DD74DD;
+}
+.box-fuchsia{
+    background-color: fuchsia;
+    color: #00FF00;
+}
+.box-gainsboro{
+    background-color: gainsboro;
+    color: #232323;
+}
+.box-ghostwhite{
+    background-color: ghostwhite;
+    color: #070700;
+}
+.box-gold{
+    background-color: gold;
+    color: #0028FF;
+}
+.box-goldenrod{
+    background-color: goldenrod;
+    color: #255ADF;
+}
+.box-gray{
+    background-color: gray;
+    color: #7F7F7F;
+}
+.box-grey{
+    background-color: grey;
+    color: #7F7F7F;
+}
+.box-green{
+    background-color: green;
+    color: #FF7FFF;
+}
+.box-greenyellow{
+    background-color: greenyellow;
+    color: #5200D0;
+}
+.box-honeydew{
+    background-color: honeydew;
+    color: #0F000F;
+}
+.box-hotpink{
+    background-color: hotpink;
+    color: #00964B;
+}
+.box-indianred{
+    background-color: indianred;
+    color: #32A3AC;
+}
+.box-indigo{
+    background-color: indigo;
+    color: #B4FF7D;
+}
+.box-ivory{
+    background-color: ivory;
+    color: #00000F;
+}
+.box-khaki{
+    background-color: khaki;
+    color: #0F1973;
+}
+.box-lavender{
+    background-color: lavender;
+    color: #191905;
+}
+.box-lavenderblush{
+    background-color: lavenderblush;
+    color: #000F0A;
+}
+.box-lawngreen{
+    background-color: lawngreen;
+    color: #8303FF;
+}
+.box-lemonchiifon{
+    background-color: lemonchiffon;
+    color: #000532;
+}
+.box-lightblue{
+    background-color: lightblue;
+    color: #522719;
+}
+.box-lightcoral{
+    background-color: lightcoral;
+    color: #0F7F7F;
+}
+.box-lightcyan{
+    background-color: lightcyan;
+    color: #1F0000;
+}
+.box-lightgoldenrodyellow{
+    background-color: lightgoldenrodyellow;
+    color: #05052D;
+}
+.box-lightgray{
+    background-color: lightgray;
+    color: #2c2c2c;
+}
+.box-lightgrey{
+    background-color: lightgrey;
+    color: #2c2c2c;
+}
+.box-lightgreen{
+    background-color: lightgreen;
+    color: #6F116F;
+}
+.box-lightpink{
+    background-color: lightpink;
+    color: #00493E;
+}
+.box-lightsalmon{
+    background-color: lightsalmon;
+    color: #005F85;
+}
+.box-lightseagreen{
+    background-color: lightseagreen;
+    color: #DF4D55;
+}
+.box-lightskyblue{
+    background-color: lightskyblue;
+    color: #783105;
+}
+.box-lightslategray{
+    background-color: lightslategray;
+    color: #887766;
+}
+.box-lightslategrey{
+    background-color: lightslategrey;
+    color: #887766;
+}
+.box-lightsteelblue{
+    background-color: lightsteelblue;
+    color: #4F3B21;
+}
+.box-lightyellow{
+    background-color: lightyellow;
+    color: #00000F;
+}
+.box-lime{
+    background-color: lime;
+    color: #FF00FF;
+}
+.box-limegreen{
+    background-color: limegreen;
+    color: #CD32CD;
+}
+.box-linen{
+    background-color: linen;
+    color: #050F19;
+}
+.box-magenta{
+    background-color: magenta;
+    color: #00FF00;
+}
+.box-maroon{
+    background-color: maroon;
+    color: #7FFFFF;
+}
+.box-mediumaquamarine{
+    background-color: mediumaquamarine;
+    color: #993255;
+}
+.box-mediumblue{
+    background-color: mediumblue;
+    color: #FFFF32;
+}
+.box-mediumorchid{
+    background-color: mediumorchid;
+    color: #45AA2C;
+}
+.box-mediumpurple{
+    background-color: mediumpurple;
+    color: #6C8F24;
+}
+.box-mediumseagreen{
+    background-color: mediumseagreen;
+    color: #C32C8E;
+}
+.box-mediumslateblue{
+    background-color: mediumslateblue;
+    color: #849711;
+}
+.box-mediumspringgreen{
+    background-color: mediumspringgreen;
+    color: #FF0565;
+}
+.box-mediumturquoise{
+    background-color: mediumturquoise;
+    color: #B72E33;
+}
+.box-mediumvioletred{
+    background-color: mediumvioletred;
+    color: #38EA7A;
+}
+.box-midnightblue{
+    background-color: midnightblue;
+    color: #E6E68F;
+}
+.box-mintcream{
+    background-color: mintcream;
+    color: #0A0005;
+}
+.box-mistyrose{
+    background-color: mistyrose;
+    color: #001B1E;
+}
+.box-moccasin{
+    background-color: moccasin;
+    color: #001B7A;
+}
+.box-navajowhite{
+    background-color: navajowhite;
+    color: #002152;
+}
+.box-navy{
+    background-color: navy;
+    color: #FFFF7F;
+}
+.box-oldlace{
+    background-color: oldlace;
+    color: #020A19;
+}
+.box-olive{
+    background-color: olive;
+    color: #7F7FFF
+}
+.box-olivedrab{
+    background-color: olivedrab;
+    color: #9471CC;
+}
+.box-orange{
+    background-color: orange;
+    color: #005AFF;
+}
+.box-orangered{
+    background-color: orangered;
+    color: #00BAFF;
+}
+.box-orchid{
+    background-color: orchid;
+    color: #258F29;
+}
+.box-palegoldenrod{
+    background-color: palegoldenrod;
+    color: #111755;
+}
+.box-palegreen{
+    background-color: palegreen;
+    color: #650477;
+}
+.box-paleturquoise{
+    background-color: paleturquoise;
+    color: #501111;
+}
+.box-palevioletred{
+    background-color: palevioletred;
+    color: #248F6C;
+}
+.box-papayawhip{
+    background-color: papayawhip;
+    color: #00102A;
+}
+.box-peachpuff{
+    background-color: peachpuff;
+    color: #002546;
+}
+.box-peru{
+    background-color: peru;
+    color: #327AC0;
+}
+.box-pink{
+    background-color: pink;
+    color: #003F34;
+}
+.box-plum{
+    background-color: plum;
+    color: #225F22;
+}
+.box-powerblue{
+    background-color: powerblue;
+    color: #4F1F19;
+}
+.box-purple{
+    background-color: purple;
+    color: #7FFF7F;
+}
+.box-rebeccapurple{
+    background-color: rebeccapurple;
+    color: #99CC66;
+}
+.box-red{
+    background-color:red;
+    color: #00FFFF;
+}
+.box-rosybrown{
+    background-color:rosybrown;
+    color: #437070;
+}
+.box-royalblue{
+    background-color:royalblue;
+    color: #BE961E;
+}
+.box-saddlebrown{
+    background-color:saddlebrown;
+    color: #74BAEC;
+}
+.box-salmon{
+    background-color: salmon;
+    color: #056F8D;
+}
+.box-sandybrown{
+    background-color: sandybrown;
+    color: #0B5B9F;
+}
+.box-seagreen{
+    background-color: seagreen;
+    color: #D174A8;
+}
+.box-seashell{
+    background-color: seashell;
+    color: #000A11;
+}
+.box-sienna{
+    background-color: sienna;
+    color: #5FADD2;
+}
+.box-silver{
+    background-color: silver;
+    color: #3f3f3f
+}
+.box-skyblue{
+    background-color: skyblue;
+    color: #783114;
+}
+.box-slateblue{
+    background-color: slateblue;
+    color: #95A532;
+}
+.box-slategray{
+    background-color: slategray;
+    color: #8F7F6F;
+}
+.box-slategrey{
+    background-color: slategrey;
+    color: #8F7F6F;
+}
+.box-snow{
+    background-color: snow;
+    color: #000505;
+}
+.box-springgreen{
+    background-color: springgreen;
+    color: #FF0080;
+}
+.box-steelblue{
+    background-color: steelblue;
+    color: #B97D4B;
+}
+.box-tan{
+    background-color: tan;
+    color: #2D4B73;
+}
+.box-teal{
+    background-color: teal;
+    color: #FF7F7F;
+}
+.box-thistle{
+    background-color: thistle;
+    color: #274027;
+}
+.box-tomato{
+    background-color: tomato;
+    color: #009CB8;
+}
+.box-turquoise{
+    background-color: turquoise;
+    color: #BF1F2F;
+}
+.box-violet{
+    background-color: violet;
+    color: #117D11;
+}
+.box-wheat{
+    background-color: wheat;
+    color: #0A214C;
+}
+.box-white{
+    background-color: white;
+    color: black;
+}
+.box-whitesmoke{
+    background-color: whitesmoke;
+    color: #0A0A0A;
+}
+.box-yellow{
+    background-color: yellow;
+    color: #0000FF;
+}
+.box-yellowgreen{
+    background-color: yellowgreen;
+    color: #6532CD;
+}
+.box-coffee{
+    background-color: #c0ffee;
+    color: #3F0011;
+}
+.box-yoonsunghentai{
+    background-color: #587785;
+    color: #A7887A;
+}
+.box-haengsinms{
+    background-color: #7d3147;
+    color: #82ceb7;
+}
+.box-quater{
+    width: 25%;
+}
+.box-center{
+    float: center;
+    display: flex;
+}

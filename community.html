@@ -47,21 +47,9 @@
     <main role="main" class="container">
         <br/><br/><br/>
         <br/><br/><br/>
-        <h1 class = "title center white">Welcome to QSpace</h1>
+        <h1 class = "center white">커뮤니티</h1>
         <br><hr><br>
-        <h2 class = "idescription">아직도 계정이 없으시나요?</h2>
-        <button class = "proceed" onclick = ""><span>회원가입</span></button><br/>
-        <br />
-        <hr >
-        <br/><br/><br/>
-        <br/><br/><br/>
-        <h1 class = "title center white">추가된 문제</h1>
-        <br><hr><br>
-        <br/><br/><br/>
-        <h1 class = "title center white">새로운 글</h1>
-        <br><hr><br>
-        <br/><br/><br/>
-        <hr >
+        <div class="questionlist"></div>
     </main>
     <footer class="site-footer">
         <div class="container">
@@ -99,7 +87,92 @@
     <script>
         $("#log_in_out").css("color", "black");
         $("#btn_join").css("color", "black");
-    </script>
 
+        function onload(){
+            var userEmail = $.cookie("userEmail");
+            if(userEmail == "" && userEmail == null){
+                console.log(userEmail);
+                var username = $.cookie("username");
+                $("#log_in_out").html("로그아웃").css("color", "red").attr("onclick", "window.location.href = 'logout'");
+                $("#btn_join").html(username + "님, 환영합니다!").css("color", "green").attr("onclick", "window.location.href = 'profile.html'");
+            }
+            else{
+                console.log(`쿠키가 존재하지 않음.`);
+                $("#log_in_out").html("로그인").attr("onclick", "window.location.href = 'login.html'");
+            }
+
+            var ajaxdata = {
+                type: "GET",
+                url: "get_questions",
+                data: {},
+                dataType: "json",
+                success: function(data, status, xhr){
+                    console.log(data);
+                    var str = "";
+                    data.forEach(function(item, index){
+                        str += `<tr>`;
+                        str += `<th scope = "row">${item.id}</th>`;
+                        str += `<td>${item.name}</td>`;
+                        str += `<td><a href = "ViewQuestion(${item.id})">${item.title}<a></td>`;
+                        str += `<td>${item.category}</td>`;
+                        str += `</tr>`;
+                    });
+                    $("#q_list").html(str);
+                }, error: function(q, w, e){}
+            };
+            $.ajax(ajaxdata);
+        }
+        function ViewQuestion(id){
+            console.log(`질문 아이디: ${id}`);
+            var ajaxdata = {
+                type: "GET",
+                url: "view_question",
+                data: {id: id},
+                dataType: "json",
+                success: function(data, status, xhr) {
+                    console.log(data);
+                    $("#writebutton").html("");
+                    $("q_table").html("");
+
+                    var question_info = "";
+                    question_info += `<button onclick = "window.location.hef = 'community.html'"><i class = "fas fa-arrow-left box-white" style = "font-size: 250%"></i></button>`;
+                    question_info += `<button class = 'edit' onclick = edit(${data.id})><i class="fas fa-edit" style = 'font-size: 250%; background: rgba(0, 0, 0, 0); float: right;'></i></button>`;
+                    question_info += `<button class = 'delete' onclick = delete_question(${data.id})><i class="far fa-trash-alt" style = 'font-size: 250%; background: rgba(0, 0, 0, 0); float: right'></i></button>`;
+                    question_info += "<br><br><hr><br><br>";
+                    question_info += `<br><div class = "title">${data.title}</div><br><hr><br>`;
+                    question_info += `내용: <textarea id='content' rows=4 cols=100>${data.content}</textarea><br><br><br><br><br>`;
+                    question_info += `댓글: <textarea id='comment' rows=3 cols=100>${data.comment}</textarea>`;
+                    question_info += `<button class = 'comment' onclick = comment(${data.id})>댓글달기</button><br><br><br><br><br>`;
+                    question_info += `좋아요 누른 사람: ${data.likes}`;
+
+                    if(data.comment != undefined){
+                        var commentList = JSON.parse(data.comment);
+                        if(commentList){
+                            commentList.forEach(function(element, index){
+                                console.log(element);
+                                question_info += `<br><div>${element.name}: ${element.text}</div>`;
+                            });
+                        }
+                    }
+                    $("#view_q").html(question_info);
+                }, error: function(q, w, e){}
+            };
+
+            function delete_question(id){
+                var ajaxdata = {
+                    type: "GET",
+                    url: "del",
+                    data: {id: id},
+                    dataType: "json",
+                    success: function(data, status, xhr) {
+                        console.log(data);
+                        alert(data.message);
+                        window.location.href = "community.html";
+                    }
+                };
+                $.ajax(ajaxdata);
+            }
+        }
+    </script>
 </body>
 </html>
