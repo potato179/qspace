@@ -1,24 +1,34 @@
 const crypto = require("crypto");
-const mysqlconfig = require("./mysql_con.js");
-var con = mysqlconfig.con;
 
-function login_html(req, res, next){
-    res.sendFile("login.html", {root: __dirname});
-}
+const express = require('express')
+const router = express.Router()
 
-function login(req, res, next){
+router.use("/public", express.static("public"))
+router.get("/", (req, res) => {
+    res.render("index")
+})
+
+router.get("/community", (req, res) => {
+    res.render("community")
+});
+
+router.get("/codingquiz", (req, res) => {
+  res.render("codingtest")
+})
+
+var con = null;
+
+router.get('/login', (req, res) => {
+    res.render("login");
+})
+
+router.post('/login', (req, res) => {
     console.log(req.query.email);
-    var email = req.query.email;
-    var output = req.query.pw;
-    var shasum = crypto.createHash("sha256");
-    shasum.update(output);
-    var pw = shasum.digest("hex");
-    output = "";
-    var q = `select * from users where email = "${email}";`;
-    console.log(email, output, pw, q);
-    
-    con.query(q, function (err, result) {
-        if (err) throw err;
+    const email = req.body.email;
+    const pw = crypto.createHash("sha256").update(req.body.pw).digest('hex')
+
+    console.log(email, pw);
+    req.knex('users').select().where('email', email).then((result) => {
         console.log(result);
 
         if(result[0] === undefined){
@@ -46,32 +56,30 @@ function login(req, res, next){
         }
         console.log(`query 성공함`);
     });
-}
+})
 
-function logout(req, res, next){
+router.get('/logout', (req, res) => {
     res.cookie("userEmail", "");
-    res.sendFile("index.html", {root: __dirname});
-}
+    res.redirect('/');
+})
 
-function join_html(req, res, next){
-    res.sendFile("join.html", {root: __dirname});
-}
+router.get('/join', (req, res) => {
+    res.render("join");
+})
 
-function join(req, res, next){
-    var name = req.query.name;
-    var email = req.query.email;
-    var pw = req.query.pw;
-    var phone = req.query.phone;
+router.post('/join', (req, res) => {
+    var name = req.body.name;
+    var email = req.body.email;
+    var pw = crypto.createHash('sha256').update(req.body.pw).digest('hex')
+    var phone = req.body.phone;
     console.log(email)
-    var f = `select * from users where email = "${email}";`;
-    con.query(f, function (err, result) {
-        if (err) throw err;
+    req.knex('users').select().where('email', email).then((result) => {
         console.log(result);
 
         if(result[0] === undefined){
-            var q = `insert into users (name, email, password, phone) values ("${name}", "${email}", "${pw}", "${phone}");`;
-            con.query(q, function (err, result) {
-                if(err) throw err;
+            req.knex('users').insert({
+              name, email, password: pw, phone
+            }).then((result) => {
                 console.log(result);
                 res.send({
                     condition: "join",
@@ -87,10 +95,6 @@ function join(req, res, next){
         }
         
     });
-}
+})
 
-exports.login_html = login_html;
-exports.join_html = join_html;
-exports.login = login;
-exports.logout = logout;
-exports.join = join;
+module.exports = router
