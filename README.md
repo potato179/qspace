@@ -32,7 +32,7 @@ npm install crypto
 
 ### Sql Tables
 1. Users 
-example table<br>
+example table
 | id | name | email | password | phone | reg_date |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 11 | 홍은표 | hackg179@gmail.com | abc123 | 01099727439 | 2020-06-15 12:11:57 |
@@ -51,7 +51,7 @@ CREATE TABLE users (
 * Password will be encoded by Crypto module.
 
 2. Questions 
-example table<br>
+example table
 | id | title | content | category | writer | comments | likes | reg_date |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 11 | 아이폰에 바이러스가 걸렸어요. | 제가 인터넷을 보던 중에 아이폰에 4가지 바이러스가 걸렸다고 뜨는데 어떻게 해결하나요? | 아이폰 | potato179 | {"jung.hyun": "그거 광고입니다 ㅋㅋㅋ", "potato2": "속지마세요 ㅎㅎ"} | ["potato179", "jung.hyun", "potato2"] | 2020-06-15 12:11:57 |
@@ -71,7 +71,7 @@ CREATE TABLE questions (
 ```
 
 3. Quiz
-example table<br>
+example table
 | id | title | cagtegory | difficulty | des | inputdes | outputdes | otherdes | input1 | input2 | input3 | output1 | output2 | output3 | language | solvers | reg_date |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 11 | A + B | 사칙연산 | 2 | 두 정수 A와 B를 입력받아 그 수를 더한 값을 출력하시오. | 두 수 A, B를 입력받는다. | A와 B를 더한 값을 출력한다. | 힌트 따위는 없다. | 1 1 | 4 8 | 12312314512 1231231238 | 2 | 12 | 13543545750 | ["C", "C++", "Java", "Python", "C#", "node.js"] | ["potato179", "jung.hyun"] | 2020-06-15 12:11:57 |
