@@ -28,16 +28,24 @@
     <br>
     <h1 class = "xx-large white">회원가입</h1>
     <br><hr><br>
+    <big><b style="color:red">TODO: 확인 알고리즘 만들기</b></big>
+    <br>
+  <form method="post">
     <label for="inputEmail" class="sr-only">이메일 주소</label>
-    <input type="email" id="inputEmail" class = "large form" placeholder = "이메일 주소" required autofocus>
+    <input type="email" name="email" id="inputEmail" class = "large form" placeholder = "이메일 주소" required autofocus>
     <br>
     <label for="inputPassword" class="sr-only">비밀번호</label>
-    <input type="password" id="inputPassword" class = "large form" placeholder = "비밀번호" required>
-    <br><br>
-    <button class = "button-next button-normal x-large box-blue white" type="submit"><span>로그인</span></button>
-    <br><hr><br>
-    <a href = "./login.html">계정이 있으신가요? 바로 로그인 하세요!</a>
+    <input type="password" name="pw" id="inputPassword" class = "large form" placeholder = "비밀번호" required>
     <br>
-    <a href = "./index.html">홈으로 돌아가기</a>
+    <input type="password" id="inputPasswordAgain" class = "large form" placeholder = "비밀번호 확인 (확인 알고리즘 없으니까 알아서 만드세요)" required autofocus>
+    <br>
+    <input type="text" name="name" id="inputName" class = "large form" placeholder = "이름" required autofocus>
+    <br><br>
+    <button class = "button-next button-normal x-large box-blue white" type="submit">회원 가입</button>
+  </form>
+    <br><hr><br>
+    <a href = "/login">계정이 있으신가요? 바로 로그인 하세요!</a>
+    <br>
+    <a href = "/">홈으로 돌아가기</a>
 </body>
 </html>
