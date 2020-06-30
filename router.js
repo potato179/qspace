@@ -13,7 +13,7 @@ router.get("/community", (req, res) => {
 });
 
 router.get("/codingquiz", (req, res) => {
-  res.render("codingtest")
+  res.status(404).send('codingquiz는 아직 읎어요!')
 })
 
 var con = null;
@@ -31,35 +31,28 @@ router.post('/login', (req, res) => {
     req.knex('users').select().where('email', email).then((result) => {
         console.log(result);
 
-        if(result[0] === undefined){
-            res.send({
-                condition: "fail",
-                message: "존재하지 않은 유저입니다."
-            });
-        }
-        else{
-            if(result[0].password === pw){
-                res.cookie("userEmail", email);
-                res.cookie("username", result[0].name);
+        if(result[0] === undefined) res.send("<script>alert('존재하지 않는 유저입니다.'); window.location.href = '/login'</script>")
+        else {
+            if(result[0].password === pw) {
+              // TODO Session
+              /*
+              res.cookie("userEmail", email);
+              res.cookie("username", result[0].name);
+              */
+              req.session.userEmail = email
+              req.session.username = result[0].name
 
-                res.send({
-                    condition: "success",
-                    message: "로그인되었습니다."
-                })
+                res.redirect('/')
             }
-            else{
-                res.send({
-                    condition: "fail",
-                    message: "비밀번호가 틀렸습니다."
-                })
-            }
+            else res.send("<script>alert('비밀번호가 맞지 않습니다.'); window.location.href = '/login'</script>")
         }
         console.log(`query 성공함`);
     });
 })
 
 router.get('/logout', (req, res) => {
-    res.cookie("userEmail", "");
+    req.session.userEmail = null
+    req.session.username = null
     res.redirect('/');
 })
 
@@ -68,32 +61,22 @@ router.get('/join', (req, res) => {
 })
 
 router.post('/join', (req, res) => {
-    var name = req.body.name;
-    var email = req.body.email;
-    var pw = crypto.createHash('sha256').update(req.body.pw).digest('hex')
-    var phone = req.body.phone;
+  const name = req.body.name;
+  const email = req.body.email;
+  const pw = crypto.createHash('sha256').update(req.body.pw).digest('hex')
     console.log(email)
     req.knex('users').select().where('email', email).then((result) => {
         console.log(result);
 
         if(result[0] === undefined){
             req.knex('users').insert({
-              name, email, password: pw, phone
+              name, email, password: pw
             }).then((result) => {
                 console.log(result);
-                res.send({
-                    condition: "join",
-                    message: "회원가입이 완료되었습니다."
-                });
+                res.send("<script>alert('회원가입이 완료되었습니다.'); window.location.href = '/'</script>");
             }); 
         }
-        else{
-            res.send({
-                condition: "fail",
-                message: "존재하는 아이디 또는 이메일입니다."
-            });
-        }
-        
+        else res.send("<script>alert('이미 존재하는 아이디 또는 이메일입니다.'); window.location.href = '/join'</script>")
     });
 })
 
