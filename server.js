@@ -7,6 +7,7 @@ const mysql_con = require("./mysql_con");
 const con = mysql_con.con;
 
 const ps_users = require("./ps_users.js");
+const ps_questions = require("./ps_questions");
 
 const hostname = "127.0.0.1";
 const port = "3000";
@@ -16,7 +17,12 @@ var urls = [
     {url: "/login.html", ps: ps_users.login_html},
     {url: "/logout", ps: ps_users.logout},
     {url: "/join", ps: ps_users.join},
-    {url: "/join.html", ps: ps_users.join_html}
+    {url: "/join.html", ps: ps_users.join_html},
+    {url: "/get_questions", ps: ps_questions.get_questions},
+    {url: "/view_question", ps: ps_questions.view_question},
+    {url: "/modify_question", ps: ps_questions.modify_question},
+    {url: "/write_question", ps: ps_questions.write_question},
+    {url: "/delete_question", ps: ps_questions.delete_question}
 ];
 
 process.argv.forEach(function(item, index) {
@@ -44,7 +50,6 @@ app.get("/community.html", function(req, res, next){
 app.get("/codingquiz.html", function(req, res, next){
     res.sendfile("codingtest.html", {root: __dirname});
 })
-
 
 urls.forEach(function(element, index){
     app.get(element.url, element.ps);
