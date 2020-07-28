@@ -8,14 +8,66 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/06fb83cb17.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./public/border.css">
     <link rel="stylesheet" href="./public/box.css">
     <link rel="stylesheet" href="./public/button.css">
     <link rel="stylesheet" href="./public/footer.css">
     <link rel="stylesheet" href="./public/font.css">
     <link rel="stylesheet" href="./public/outline.css">
+    <style>
+        hr{
+            background: grey;
+        }
+    </style>
 </head>
-<body>
-    
+<body class = "box-black center">
+    <form class="form-signin">
+        <br><br><br>
+        <i class = "far fa-file-alt" style = "font-size: 400%;"></i>
+        <br><br><br>
+        <h1 class = "white h3 mb-3 xx-large">질문 작성</h1>
+        <br><hr><br>
+        <label class="sr-only">제목</label>
+        <input name = "title" id = "title" class = "form-control" placeholder = "제목"" required autofocus>
+        <br>
+        <h4 class = "left" id = "writername">by</h4>
+        <br><hr><br>
+        <h5 class = "left">내용</h5>
+        <textarea name = "내용 입력" id = "content" cols="50" rows="10"></textarea>
+        <br><br><br>
+        <h5 class = "left">카테고리</h5>
+        <div class = "left"><input type = "text" id = "searchres">&nbsp;&nbsp;<button onclick = "searchcategory()">검색</button></div>
+        <select name = "카테고리 선택.." id = "category" class = "fill">
+            <option>카테고리 없음</option>
+        </select>
+        <br><br><br>
+        <br><hr><br>
+        <br><br><br>
+        <button class = "button-proceed btn btn-lg btn-primary btn-block" type="submit" onclick="submit();"><span>질문하기!</span></button>
+        <br><br>
+        <a href="./index.html">홈으로 돌아가기</a></p>
+        <br><br><br>
+        <br><br><br>
+    </form>
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type = "text/javascript" src = "./public/categories.js"></script>
+    <script>
+        function searchcategory(){
+            let str = "";
+            var getsearchitems = $("#searchres").val();
+            category_list.forEach(function(item, index){
+                if(item.toLowerCase().includes(getsearchitems.toLowerCase) === true){
+                    str += `<option>${item}</option>`;
+                    console.log(item, str);
+                }
+            });
+            $("#category").html(str);
+        }
+
+        function submit(){
+            
+        }
+    </script>
 </body>
 </html>

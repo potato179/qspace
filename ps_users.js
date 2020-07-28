@@ -20,6 +20,7 @@ function login(req, res, next){
     con.query(q, function (err, result) {
         if (err) throw err;
         console.log(result);
+        console.log(email, pw, result[0].password);
 
         if(result[0] === undefined){
             res.send({
@@ -31,7 +32,6 @@ function login(req, res, next){
             if(result[0].password === pw){
                 res.cookie("userEmail", email);
                 res.cookie("username", result[0].name);
-
                 res.send({
                     condition: "success",
                     message: "로그인되었습니다."

@@ -2,42 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Signin Template · Bootstrap</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>로그인</title>
+    <title>로그인 - QSpace</title>
+    <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./public/border.css">
     <link rel="stylesheet" href="./public/box.css">
     <link rel="stylesheet" href="./public/button.css">
     <link rel="stylesheet" href="./public/footer.css">
     <link rel="stylesheet" href="./public/font.css">
-    <link rel="stylesheet" href="./public/outline.css">
+    <link rel="stylesheet" href="./public/outline.css">    
+    <script src="https://kit.fontawesome.com/06fb83cb17.js" crossorigin="anonymous"></script>
     <style>
-        body {
-            background:black;
-        }
-        .form {
-            width: 25%;
+        body{
+            background: black;
         }
     </style>
-    <script src="https://kit.fontawesome.com/06fb83cb17.js" crossorigin="anonymous"></script>
 </head>
-<body class = "center bg-black">
-    <br><br><br>
-    <br><br><br>
-    <i class = "big white center fas fa-sign-in-alt"></i>
-    <br>
-    <h1 class = "xx-large white">회원가입</h1>
-    <br><hr><br>
-    <label for="inputEmail" class="sr-only">이메일 주소</label>
-    <input type="email" id="inputEmail" class = "large form" placeholder = "이메일 주소" required autofocus>
-    <br>
-    <label for="inputPassword" class="sr-only">비밀번호</label>
-    <input type="password" id="inputPassword" class = "large form" placeholder = "비밀번호" required>
-    <br><br>
-    <button class = "button-next button-normal x-large box-blue white" type="submit"><span>로그인</span></button>
-    <br><hr><br>
-    <a href = "./login.html">계정이 있으신가요? 바로 로그인 하세요!</a>
-    <br>
-    <a href = "./index.html">홈으로 돌아가기</a>
+<body class="text-center">
+    <form class="form-signin">
+        <br><br>
+        <i class = "white fas fa-sign-in-alt" style = "font-size: 400%;"></i>
+        <br><br>
+        <h1 class = "white h3 mb-3 xx-large">회원가입</h1>
+        <br><br>
+        <label for="inputEmail" class="sr-only">이메일</label>
+        <input type = "email" name = "email" id = "email" class = "form-control" placeholder = "이메일" required autofocus>
+        <label for="inputEmail" class="sr-only">이름</label>
+        <input type = "email" name = "email" id = "email" class = "form-control" placeholder = "이름"" required autofocus>
+        <label for="inputPassword" class="sr-only">비밀번호</label>
+        <input type="password" name = "pw" id="pw" class="form-control" placeholder="비밀번호" required>
+        <br><br><br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="signin();">로그인</button>
+        <p class="mt-5 mb-3 text-muted"><a href="./join.html">회원가입</a><br><br><a href="./index.html">홈으로 돌아가기</a></p>
+    </form>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        function signin() {
+            console.log(`signin`);
+            var email = $('#email').val();
+            var pw = $('#pw').val();
+            var sendData = {
+                email: email, 
+                pw: pw
+            };
+
+            var ajaxData = { 
+                type: "GET", 
+                url : "login",
+                data: sendData, 
+                dataType: "json", 
+                success :  onSuccess,
+                error: onError
+            };
+            $.ajax(ajaxData);
+        }
+
+        function onSuccess (data, status, xhr) { 
+            console.log(data);
+            if(data.condition == "success"){
+                alert(data.message);        
+                window.location.href = "index.html"
+            }
+            else if(data.condition == "fail"){
+                alert(data.message);
+            }
+        }
+
+        function onError (jqXHR, textStatus, errorThrown) { 
+            console.log(jqXHR.responseText); 
+        }
+    </script>
 </body>
 </html>

@@ -22,7 +22,7 @@
         <br><br>
         <i class = "white fas fa-sign-in-alt" style = "font-size: 400%;"></i>
         <br><br>
-        <h1 class = "white h3 mb-3 superbig">로그인</h1>
+        <h1 class = "white h3 mb-3 xx-large">로그인</h1>
         <br><br>
         <label for="inputEmail" class="sr-only">이메일</label>
         <input type = "email" name = "email" id = "email" class = "form-control" placeholder = "이메일" required autofocus>
@@ -36,8 +36,9 @@
     <script>
         function signin() {
             console.log(`signin`);
-            var email = $('#email').val();
-            var pw = $('#pw').val();
+            var email = $("#email").val();
+            var pw = $("#pw").val();
+            console.log(pw, email);
             var sendData = {
                 email: email, 
                 pw: pw
@@ -58,7 +59,7 @@
             console.log(data);
             if(data.condition == "success"){
                 alert(data.message);        
-                window.location.href = "index.html"
+                window.location.href = "index.html";
             }
             else if(data.condition == "fail"){
                 alert(data.message);

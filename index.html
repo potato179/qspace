@@ -13,16 +13,13 @@
     <link rel="stylesheet" href="./public/font.css">
     <link rel="stylesheet" href="./public/outline.css">
     <style>
-        body{
-            background: black;
-        }
         hr{
             background: grey;
         }
     </style>
     <script src="https://kit.fontawesome.com/06fb83cb17.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class = "box-black">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
         <a class="navbar-brand" href="#" style = "font-weight: bold;">QSpace</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,60 +42,41 @@
         </div>
     </nav>
     <main role="main" class="container">
-        <br/><br/><br/>
-        <br/><br/><br/>
-        <h1 class = "title center white">Welcome to QSpace</h1>
+        <br><br><br>
         <br><hr><br>
-        <h2 class = "idescription">아직도 계정이 없으시나요?</h2>
-        <button class = "proceed" onclick = ""><span>회원가입</span></button><br/>
-        <br />
-        <hr >
-        <br/><br/><br/>
-        <br/><br/><br/>
-        <h1 class = "title center white">추가된 문제</h1>
-        <br><hr><br>
-        <br/><br/><br/>
-        <h1 class = "title center white">새로운 글</h1>
-        <br><hr><br>
-        <br/><br/><br/>
-        <hr >
+        <h1 id = "mainintro" class = "intro center bold white">QSpace에 오신 것을 환영합니다. 회원가입을 해서 더 많은 정보를 얻어보세요!</h1>
+        <br><br><br>
+        <h1 id = "date" class = "intro center bold white">sdf</h1>
     </main>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-15 col-md-10">
-                <h6>Links</h6>
-                <ul class="footer-links">
-                    <li><a style = "margin: 5px" href="./license.html">라이선스</a><a style = "margin: 5px" href="https://github.com/potato179/">소스코드</a><a style = "margin: 5px" href="http://scanfcode.com/sitemap/">파트너</a></li>
-                    <li><a style = "margin: 5px" href="http://scanfcode.com/contact/">커뮤니티 사용규칙</a><a style = "margin: 5px" href="http://scanfcode.com/contact/">이용약관</a><a style = "margin: 5px" href="http://scanfcode.com/contribute-at-scanfcode/">개인정보처리방침</a></li>
-                </ul>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-        <a href="#">홍은표</a>.
-            </p>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-                <li><a class="github" type="button" onclick = "window.open('https://github.com/potato179/')"><i class="fab fa-github"></i></a></li>
-                <li><a class="facebook" type="button" onclick = "window.open('https://www.facebook.com/potato179bot/')"><i class="fab fa-facebook"></i></a></li>
-                <li><a class="discord" type="button" onclick = "window.open('https://discord.gg/ecsApMn')"><i class="fab fa-discord"></i></a></li>
-            </ul>
-            </div>
-        </div>
-        </div>
-    </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>
         $("#log_in_out").css("color", "black");
         $("#btn_join").css("color", "black");
+        function onload(){
+            var userEmail = $.cookie("userEmail");
+            console.log(userEmail);
+            if(userEmail == "" && userEmail == null){
+                console.log(userEmail);
+                var username = $.cookie("username");
+                $("#mainintro").html(username + "님, QSpace에 오신 것을 환영합니다!");
+            }
+            else{
+                console.log(`쿠키가 존재하지 않음.`);
+                $("#mainintro").html("Qspace에 오신 것을 환영합니다. 로그인 해서 더 많은 정보를 얻어가세요!");
+            }
+        }
+
+        var span = document.getElementById("date");
+
+        function time() {
+            var d = new Date();
+            var s = d.getSeconds();
+            var m = d.getMinutes();
+            var h = d.getHours();
+            span.textContent = h + ":" + m + ":" + s;
+        }
+
+        setInterval(time, 1000);k
     </script>
 
 </body>

@@ -639,3 +639,6 @@
     float: center;
     display: flex;
 }
+.fill{
+    width: 100%;
+}
